@@ -1,0 +1,12 @@
+using System;
+class test
+
+{
+    public static void Main(string[]args)
+    {
+        string number = Console.ReadLine();
+        int num = Convert.ToInt32(number);
+        Math.Abs(num);
+        Console.WriteLine(num);
+    }
+}
